@@ -1,0 +1,23 @@
+#home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+
+}
+
+a:link {
+color: orange;
+text-decoration: none;
+font-size: 180%;
+}
+a:visited{
+color:powderblue;
+text-decoration: none;
+}
+a:hover {
+color: red;
+text-decoration: none;
+}
