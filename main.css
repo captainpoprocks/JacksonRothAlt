@@ -36,16 +36,14 @@ body{
   background-attachment: fixed;
   overflow: hidden;
 
+
     //background-size: 100%;
     //background-repeat: no-repeat;
     //background-attachment: fixed;
 
 }
 
-@media only screen and (max-device-width: 1080px) {
-      background-image: url("photography/background-mobile.PNG");
-      overflow: hidden;
-  	}
+
 
 //body{
   -webkit-animation: colorchange 60s infinite;
