@@ -40,9 +40,8 @@ body{
     //background-repeat: no-repeat;
     //background-attachment: fixed;
 
-    @media only screen and (max-device-width: 720px) {
+    @media only screen and (max-device-width: 1080px) {
       background-image: url("photography/background-mobile.PNG");
-      background-size: cover;
       overflow: hidden;
   	}
 }
