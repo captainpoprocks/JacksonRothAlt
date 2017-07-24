@@ -33,12 +33,21 @@ body{
   background-image: url("photography/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
 
     //background-size: 100%;
     //background-repeat: no-repeat;
     //background-attachment: fixed;
+
+    @media only screen and (max-device-width: 720px) {
+      background-image: url("photography/background-mobile.PNG");
+      background-size: cover;
+      overflow: hidden;
+  	}
 }
+
+
 
 //body{
   -webkit-animation: colorchange 60s infinite;
