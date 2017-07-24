@@ -9,15 +9,51 @@
 }
 
 a:link {
-color: orange;
+color: powderblue;
 text-decoration: none;
 font-size: 180%;
 }
 a:visited{
-color:powderblue;
+color: white;
 text-decoration: none;
 }
 a:hover {
-color: red;
+color: yellow;
 text-decoration: none;
 }
+
+
+h1{
+  color: white;
+}
+
+body{
+  background-image: url("/Users/JacksonRoth/Desktop/College/JacksonRothAlt/photography/GOPR1009.jpg");
+  background-size: cover;
+  overflow: hidden;
+
+    //background-size: 100%;
+    //background-repeat: no-repeat;
+    //background-attachment: fixed;
+}
+
+//body{
+  -webkit-animation: colorchange 60s infinite;
+    animation: colorchange 60s infinite;
+    }
+    @-webkit-keyframes colorchange {
+         0%  {background: #cc9900;}
+        20%  {background: #a52956;}
+        45%  {background: #64a529;}
+        70%  {background: #2971a5;}
+        90% {background: #a52999;}
+        100% {background: #cc9900;}
+    }
+    @keyframes colorchange {
+      0%  {background: #cc9900;}
+     20%  {background: #a52956;}
+     45%  {background: #64a529;}
+     70%  {background: #2971a5;}
+     90% {background: #a52999;}
+     100% {background: #cc9900;}
+    }
